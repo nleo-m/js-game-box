@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+#game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#board {
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid #293825;
+}
+
+#back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+}
